@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ChessPieces">
+      <UniqueIdentifier>{26621e24-7a05-40ca-847f-833e355f010f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChessPieces">
+      <UniqueIdentifier>{e65b38d2-8027-456c-8540-d7d71a6306b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChessManager">
+      <UniqueIdentifier>{bb77efd2-261c-4b98-a680-d9f927625d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChessManager">
+      <UniqueIdentifier>{96a5b169-40ab-4158-9c91-3f594e806552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChessData">
+      <UniqueIdentifier>{98fcc182-d815-401f-9592-858c51a04744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChessData">
+      <UniqueIdentifier>{8757247e-1557-4d12-9a55-ad72b25a8afc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\ChessPieces\ChessPiece.h">
+      <Filter>Header Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessManager\ChessManager.h">
+      <Filter>Header Files\ChessManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessData\ChessPieceDataRecord.h">
+      <Filter>Header Files\ChessData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessData\ChessPieceFactory.h">
+      <Filter>Header Files\ChessData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessData\ChessData.h">
+      <Filter>Header Files\ChessData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ChessPieces\ChessPiece.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessManager\ChessManager.cpp">
+      <Filter>Source Files\ChessManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessData\ChessPieceFactory.cpp">
+      <Filter>Source Files\ChessData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessData\ChessData.cpp">
+      <Filter>Source Files\ChessData</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
