@@ -15,7 +15,7 @@ namespace Chess
 		int number;
 	};
 
-	enum class Player
+	enum class PlayerType
 	{
 		White,
 		Black
@@ -33,7 +33,7 @@ namespace Chess
 
 	struct ChessPieceDataRecord
 	{
-		ChessPieceDataRecord(Player player, PieceType type, ChessPiecePosition position) :
+		ChessPieceDataRecord(PlayerType player, PieceType type, ChessPiecePosition position) :
 			player(player),
 			type(type),
 			position(position)
@@ -41,7 +41,7 @@ namespace Chess
 
 		}
 
-		Player player;
+		PlayerType player;
 		PieceType type;
 		ChessPiecePosition position;
 	};

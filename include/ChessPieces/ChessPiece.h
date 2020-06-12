@@ -1,10 +1,20 @@
 #pragma once
 
+#include "ChessData/ChessPieceDataRecord.h"
+
 namespace Chess
 {
 	class ChessPiece
 	{
 	protected:
-		virtual bool TryMove(int x, int y) = 0;
+		ChessPiece(PlayerType playerType, PieceType pieceType, ChessPiecePosition piecePosition);
+	
+	protected:
+		virtual bool TryMove(ChessPiecePosition position) = 0;
+
+	protected:
+		PlayerType _playerType;
+		PieceType _pieceType;
+		ChessPiecePosition _piecePosition;
 	};
 }

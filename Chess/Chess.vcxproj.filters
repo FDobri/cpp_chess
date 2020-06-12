@@ -48,6 +48,24 @@
     <ClInclude Include="..\include\ChessData\ChessData.h">
       <Filter>Header Files\ChessData</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\ChessPieces\Pawn.h">
+      <Filter>Header Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessPieces\Rook.h">
+      <Filter>Header Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessPieces\Knight.h">
+      <Filter>Header Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessPieces\Bishop.h">
+      <Filter>Header Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessPieces\Queen.h">
+      <Filter>Header Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessPieces\King.h">
+      <Filter>Header Files\ChessPieces</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ChessPieces\ChessPiece.cpp">
@@ -64,6 +82,24 @@
     </ClCompile>
     <ClCompile Include="..\src\ChessData\ChessData.cpp">
       <Filter>Source Files\ChessData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessPieces\Pawn.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessPieces\Bishop.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessPieces\King.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessPieces\Knight.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessPieces\Queen.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessPieces\Rook.cpp">
+      <Filter>Source Files\ChessPieces</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

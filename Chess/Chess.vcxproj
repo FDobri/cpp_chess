@@ -120,13 +120,25 @@
     <ClInclude Include="..\include\ChessData\ChessPieceDataRecord.h" />
     <ClInclude Include="..\include\ChessData\ChessPieceFactory.h" />
     <ClInclude Include="..\include\ChessManager\ChessManager.h" />
+    <ClInclude Include="..\include\ChessPieces\Bishop.h" />
     <ClInclude Include="..\include\ChessPieces\ChessPiece.h" />
+    <ClInclude Include="..\include\ChessPieces\King.h" />
+    <ClInclude Include="..\include\ChessPieces\Knight.h" />
+    <ClInclude Include="..\include\ChessPieces\Pawn.h" />
+    <ClInclude Include="..\include\ChessPieces\Queen.h" />
+    <ClInclude Include="..\include\ChessPieces\Rook.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ChessData\ChessData.cpp" />
     <ClCompile Include="..\src\ChessData\ChessPieceFactory.cpp" />
     <ClCompile Include="..\src\ChessManager\ChessManager.cpp" />
+    <ClCompile Include="..\src\ChessPieces\Bishop.cpp" />
     <ClCompile Include="..\src\ChessPieces\ChessPiece.cpp" />
+    <ClCompile Include="..\src\ChessPieces\King.cpp" />
+    <ClCompile Include="..\src\ChessPieces\Knight.cpp" />
+    <ClCompile Include="..\src\ChessPieces\Pawn.cpp" />
+    <ClCompile Include="..\src\ChessPieces\Queen.cpp" />
+    <ClCompile Include="..\src\ChessPieces\Rook.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

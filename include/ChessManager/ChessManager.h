@@ -1,8 +1,8 @@
 #pragma once
 
-#include "ChessPieces/ChessPiece.h"
 #include "ChessData/ChessData.h"
 #include "ChessData/ChessPieceFactory.h"
+#include "ChessPieces/ChessPiece.h"
 #include <vector>
 
 namespace Chess

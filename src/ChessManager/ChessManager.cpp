@@ -20,7 +20,8 @@ namespace Chess
 		const std::vector<ChessPieceDataRecord>& dataRecords = _chessData.GetChessPieceData();
 		for (auto& chessPieceData : dataRecords)
 		{
-			if (chessPieceData.player == Player::Black)
+			// might change
+			if (chessPieceData.player == PlayerType::Black)
 			{
 				blackChessPieces.push_back(_chessPieceFactory.CreatePiece(chessPieceData));
 			}
