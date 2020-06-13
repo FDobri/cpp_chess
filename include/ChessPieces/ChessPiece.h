@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ChessData/ChessPieceDataRecord.h"
+#include "ChessData/ChessPieceDataContainer.h"
 
 namespace Chess
 {

@@ -31,6 +31,12 @@
     <Filter Include="Source Files\ChessData">
       <UniqueIdentifier>{8757247e-1557-4d12-9a55-ad72b25a8afc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ChessBoard">
+      <UniqueIdentifier>{df7598eb-7bfe-4993-acef-a78f10b0ee2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChessBoard">
+      <UniqueIdentifier>{258ccf88-0f6e-419d-9eae-9c9e22a91ccf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\ChessPieces\ChessPiece.h">
@@ -38,9 +44,6 @@
     </ClInclude>
     <ClInclude Include="..\include\ChessManager\ChessManager.h">
       <Filter>Header Files\ChessManager</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\ChessData\ChessPieceDataRecord.h">
-      <Filter>Header Files\ChessData</Filter>
     </ClInclude>
     <ClInclude Include="..\include\ChessData\ChessPieceFactory.h">
       <Filter>Header Files\ChessData</Filter>
@@ -65,6 +68,15 @@
     </ClInclude>
     <ClInclude Include="..\include\ChessPieces\King.h">
       <Filter>Header Files\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessData\ChessPieceDataContainer.h">
+      <Filter>Header Files\ChessData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessBoard\ChessBoard.h">
+      <Filter>Header Files\ChessBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ChessBoard\ChessBoardField.h">
+      <Filter>Header Files\ChessBoard</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +112,12 @@
     </ClCompile>
     <ClCompile Include="..\src\ChessPieces\Rook.cpp">
       <Filter>Source Files\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessBoard\ChessBoard.cpp">
+      <Filter>Source Files\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessBoard\ChessBoardField.cpp">
+      <Filter>Source Files\ChessBoard</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

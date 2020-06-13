@@ -10,7 +10,7 @@
 
 namespace Chess
 {
-	ChessPiece* ChessPieceFactory::CreatePiece(const ChessPieceDataRecord& data)
+	ChessPiece* ChessPieceFactory::CreatePiece(const ChessPieceDataContainer& data)
 	{
 		switch (data.type)
 		{

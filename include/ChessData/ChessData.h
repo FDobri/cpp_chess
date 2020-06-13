@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ChessData/ChessPieceDataRecord.h"
+#include "ChessData/ChessPieceDataContainer.h"
 #include <vector>
 
 namespace Chess
@@ -9,9 +9,9 @@ namespace Chess
 	{
 	public:
 		void InitData();
-		const std::vector<ChessPieceDataRecord>& GetChessPieceData() const;
+		const std::vector<ChessPieceDataContainer>& GetChessPieceData() const;
 
 	private:
-		std::vector<ChessPieceDataRecord> _database;
+		std::vector<ChessPieceDataContainer> _database;
 	};
 }

@@ -116,8 +116,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\ChessBoard\ChessBoard.h" />
+    <ClInclude Include="..\include\ChessBoard\ChessBoardField.h" />
     <ClInclude Include="..\include\ChessData\ChessData.h" />
-    <ClInclude Include="..\include\ChessData\ChessPieceDataRecord.h" />
+    <ClInclude Include="..\include\ChessData\ChessPieceDataContainer.h" />
     <ClInclude Include="..\include\ChessData\ChessPieceFactory.h" />
     <ClInclude Include="..\include\ChessManager\ChessManager.h" />
     <ClInclude Include="..\include\ChessPieces\Bishop.h" />
@@ -129,6 +131,8 @@
     <ClInclude Include="..\include\ChessPieces\Rook.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\ChessBoard\ChessBoard.cpp" />
+    <ClCompile Include="..\src\ChessBoard\ChessBoardField.cpp" />
     <ClCompile Include="..\src\ChessData\ChessData.cpp" />
     <ClCompile Include="..\src\ChessData\ChessPieceFactory.cpp" />
     <ClCompile Include="..\src\ChessManager\ChessManager.cpp" />

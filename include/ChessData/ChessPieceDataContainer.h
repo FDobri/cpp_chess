@@ -31,9 +31,9 @@ namespace Chess
 		King
 	};
 
-	struct ChessPieceDataRecord
+	struct ChessPieceDataContainer
 	{
-		ChessPieceDataRecord(PlayerType player, PieceType type, ChessPiecePosition position) :
+		ChessPieceDataContainer(PlayerType player, PieceType type, ChessPiecePosition position) :
 			player(player),
 			type(type),
 			position(position)
