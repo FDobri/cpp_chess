@@ -7,13 +7,14 @@ namespace Chess
 	class ChessBoardField
 	{
 	public:
-		ChessBoardField(char letter, int number);
+		ChessBoardField();
+
+		ChessBoardField(ChessPiecePosition position);
 
 		void SetChessPiece(ChessPiece* chessPiece);
 
 	private:
-		char _letter;
-		int _number;
+		ChessPiecePosition _position;
 		bool _isOccupied = false;
 		ChessPiece* _chessPiece;
 	};

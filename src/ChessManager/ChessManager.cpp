@@ -14,7 +14,7 @@ namespace Chess
 	{
 		_chessData.InitData();
 		CreateAllPieces();
-		InitChessBoard();
+		InitChessBoardPieces();
 	}
 
 	void ChessManager::CreateAllPieces()
@@ -26,12 +26,12 @@ namespace Chess
 		}
 	}
 
-	void ChessManager::InitChessBoard()
+	void ChessManager::InitChessBoardPieces()
 	{
 		_chessBoard.InitChessBoard();
-		for (ChessBoardField field : _chessBoard.chessBoardFiels)
-		{
-
-		}
+		// for numbers 1 to 8
+			// for letters A to whatever
+				// fill chess board map with empty fields
+		// assign hardcoded pawns onto the fields
 	}
 }

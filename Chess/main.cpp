@@ -5,7 +5,8 @@ int main()
 {
 	Chess::ChessData data;
 	Chess::ChessPieceFactory factory;
-	Chess::ChessManager chessManager(data, factory);
+	Chess::ChessBoard board;
+	Chess::ChessManager chessManager(data, factory, board);
 	chessManager.Init();
 
 	int x;

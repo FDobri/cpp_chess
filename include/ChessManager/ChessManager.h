@@ -17,7 +17,7 @@ namespace Chess
 
 	private:
 		void CreateAllPieces();
-		void InitChessBoard();
+		void InitChessBoardPieces();
 
 	private:
 		ChessData& _chessData;

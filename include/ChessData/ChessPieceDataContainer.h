@@ -4,11 +4,23 @@ namespace Chess
 {
 	struct ChessPiecePosition
 	{
+		ChessPiecePosition() :
+			letter('A'),
+			number(1)
+		{
+
+		}
+
 		ChessPiecePosition(char let, int num) :
 			letter(let),
 			number(num)
 		{
 
+		}
+
+		bool operator<(const ChessPiecePosition& position) const
+		{
+			return (this->letter >= position.letter && this->number >= position.number);
 		}
 
 		char letter;

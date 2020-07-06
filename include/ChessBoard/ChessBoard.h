@@ -1,6 +1,8 @@
 #pragma once
 
 #include "ChessBoardField.h"
+#include <map>
+#include <memory>
 #include <vector>
 
 namespace Chess
@@ -11,7 +13,7 @@ namespace Chess
 		void InitChessBoard();
 	
 	public:
-		std::vector<ChessBoardField> chessBoardFiels;
+		std::map< ChessPiecePosition, std::shared_ptr<ChessBoardField> > chessBoardFields;
 
 	private:
 		const std::vector<char> CHARS_VECTOR = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };

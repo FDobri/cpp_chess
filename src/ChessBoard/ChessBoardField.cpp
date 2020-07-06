@@ -2,9 +2,14 @@
 
 namespace Chess
 {
-	ChessBoardField::ChessBoardField(char letter, int number) :
-		_letter(letter),
-		_number(number),
+	ChessBoardField::ChessBoardField() :
+		_chessPiece(nullptr)
+	{
+
+	}
+
+	ChessBoardField::ChessBoardField(ChessPiecePosition position) :
+		_position(position),
 		_chessPiece(nullptr)
 	{
 
