@@ -16,15 +16,8 @@ namespace Chess
 		void Init();
 
 	private:
-		void CreateAllPieces();
-		void InitChessBoardPieces();
-
-	private:
 		ChessData& _chessData;
 		ChessPieceFactory& _chessPieceFactory;
 		ChessBoard& _chessBoard;
-
-	public:
-		std::vector<ChessPiece*> activeChessPieces;
 	};
 }

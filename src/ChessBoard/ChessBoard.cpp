@@ -1,5 +1,4 @@
 #include "ChessBoard/ChessBoard.h"
-#include "ChessBoard/ChessBoardField.h"
 
 namespace Chess
 {
@@ -9,9 +8,8 @@ namespace Chess
 		{
 			for (int number : NUMBERS_VECTOR)
 			{
-				ChessPiecePosition position = ChessPiecePosition(letter, number);
-				chessBoardFields.emplace(position, std::make_shared<ChessBoardField>(position));
-				int x = 0;
+				ChessPiecePosition position(letter, number);
+				_chessBoard.push_back(ChessBoardField(position));
 			}
 		}
 	}

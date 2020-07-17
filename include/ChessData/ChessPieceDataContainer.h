@@ -18,9 +18,10 @@ namespace Chess
 
 		}
 
-		bool operator<(const ChessPiecePosition& position) const
+		ChessPiecePosition(const ChessPiecePosition& other)
 		{
-			return (this->letter >= position.letter && this->number >= position.number);
+			this->letter = other.letter;
+			this->number = other.number;
 		}
 
 		char letter;
